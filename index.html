@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliot_Sunz's Commission site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background">
+    <header>
+        <h1>Eliot's Commission Site</h1>
+        <p>Select a commission type below to learn more</p>
+    </header>
+
+
+    <div class="cards">
+        <div class="card" onclick="showCommission('emotes')">
+            <h3>Emotes</h3>
+            <p>Placeholder Description</p>
+            <p class="price">$3,5</p>
+        </div>
+        <div class="card" onclick="showCommission('doodles')">
+            <h3>Doodles</h3>
+            <p>Placeholder Description</p>
+            <p class="price">$5</p>
+        </div>
+        <div class="card" onclick="showCommission('painting')">
+            <h3>Digital Painting</h3>
+            <p>Placeholder Description</p>
+            <p class="price">$100</p>
+        </div>
+    </div>
+
+
+    <div id="overlay">
+        <div id="content">
+            <button id="closeBtn" onclick="closeOverlay()">✕</button>
+            <h2>Commission Details</h2>
+            <div id="gallery">
+                <button onclick="prevImage()">⟨</button>
+                <img id="gallery-image" src="" alt="Commission Example">
+                <button onclick="nextImage()">⟩</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
