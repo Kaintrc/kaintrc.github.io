@@ -3,13 +3,13 @@ const commissions = {
         title: "Emotes",
         description: "Placeholder Description",
         price: "$3,5 to $6,5",
-        images: ["images/HypnoTaerie_squeesh.png", "images/Pix_blep.png", "images/Taerie_big_eyes_emote.png"]
+        images: ["Images/HypnoTaerie_squeesh.png", "Images/Pix_blep.png", "Images/Taerie_big_eyes_emote.png"]
     },
     doodles: {
         title: "Doodles",
         description: "Placeholder Description",
         price: "$5 - $15",
-        images: ["images/Doodle1.png", "images/Doodle2.png", "images/Doodle3.png"]
+        images: ["Images/Doodle1.png", "Images/Doodle2.png", "Images/Doodle3.png"]
     },
     painting: {
         title: "Digital Painting ",
